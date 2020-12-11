@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Don’t focus on style
 
-You can use the [editor on GitHub](https://github.com/pheanex/codereview.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Style is subjective and does not bring value if it is not consistent. Agree on a style guide and let formatters do the checking.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Offer examples
 
-### Markdown
+Instead of instructing the author what to do, provide example-code. This speeds up the process and avoids misunderstandings.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Don’t use ‘you’
 
-```markdown
-Syntax highlighted code block
+Word your feedback in a way that minimizes the risk of raising your teammate’s defenses. Be clear that you’re critiquing the code, not the coder. Using ‘you’ increases the risk that they’ll take your criticism personally. Consider using ‘we’ as it stresses the shared code-ownership.
 
-# Header 1
-## Header 2
-### Header 3
+## Frame feedback as requests, not commands
 
-- Bulleted
-- List
+Requests make it easier for the author to push back politely. They may have a good reason for their choice. If you frame your feedback as a command, any pushback from the author comes across as disobedience. If you frame your feedback as a request or a question, the author can simply answer you.
 
-1. Numbered
-2. List
+## Tie notes to principles, not opinions
 
-**Bold** and _Italic_ and `Code` text
+Explain both your suggested change and the reason for the change. Grounding your notes on principles frames the discussion in a constructive way. Provide supporting evidence where possible in the form of links.
 
-[Link](url) and ![Image](src)
-```
+## Make the code better, not perfect
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Although you might want to explore every opportunity to improve the code, the author’s patience is finite. They might grow frustrated if you withhold approval for too long, because you keep thinking of new ways for them to improve the code. Also don’t too much feedback, as authors may feel overwhelmed if you provide too much feedback at once. Limit your feedback to necessary things and focus on the most important things.
 
-### Jekyll Themes
+## Respect the scope
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pheanex/codereview.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In order to keep reviews and changes small, don’t review code that is out of scope of this changelist.
+Grant approval as soon as possible
 
-### Support or Contact
+Don’t withhold your approval if there are only minor changes left and trust that the author will consider your feedback and work it in if they agree with it. Don’t be the last cruel gatekeeper who upholds code quality as there will be situations when you can’t be there.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Be inclusive
+
+Use full sentences to express your suggestions and provide necessary details and context. Doing so allows others to join the discussion easily and better understand your arguments. This allows them to make informed decisions.
+
+## Be specific
+
+Instead of asking open or unbounded changes like “Add more tests”, elaborate on what exactly can be improved or is missing.
+
+## Don't nitpick
+
+Invest author's and reviewers's resources on issues worth solving.
+This prevents frustration and allows you to deliver value sooner.
+If you feel something is worth changing, don't reduce your feedback by adding something like "nitpick". See [Parkinson's law of triviality](https://en.wikipedia.org/wiki/Law_of_triviality)
